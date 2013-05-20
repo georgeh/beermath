@@ -23,6 +23,22 @@ class BitternessTest extends \PHPUnit_Framework_TestCase {
      */
     public function testTinseth()
     {
-        $this->assertEquals(40, (int) $this->bitterness->tinseth(5.5, 60, 19, 1.050, 60));
+        $this->assertEquals(38, $this->bitterness->tinseth(5.5, 56.7, 18.9, 1.056, 60));
+    }
+
+    /**
+     * @covers \BeerMath\Bitterness::rager
+     */
+    public function testRager()
+    {
+        $this->assertEquals(47.8, $this->bitterness->rager(5.5, 56.7, 18.9, 1.056, 60));
+    }
+
+    /**
+     * @covers \BeerMath\Bitterness::daniels
+     */
+    public function testDaniels()
+    {
+        $this->assertEquals(49.2, $this->bitterness->daniels(5.5, 56.7, 18.9, 1.056, 60));
     }
 }
