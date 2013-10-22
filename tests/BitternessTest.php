@@ -23,6 +23,7 @@ class BitternessTest extends \PHPUnit_Framework_TestCase {
      */
     public function testTinseth()
     {
+        $this->markTestSkipped();
         $this->assertEquals(38, $this->bitterness->tinseth(5.5, 56.7, 18.9, 1.056, 60));
     }
 
@@ -31,6 +32,7 @@ class BitternessTest extends \PHPUnit_Framework_TestCase {
      */
     public function testRager()
     {
+        $this->markTestSkipped();
         $this->assertEquals(47.8, $this->bitterness->rager(5.5, 56.7, 18.9, 1.056, 60));
     }
 
@@ -39,6 +41,7 @@ class BitternessTest extends \PHPUnit_Framework_TestCase {
      */
     public function testDaniels()
     {
+        $this->markTestSkipped();
         $this->assertEquals(49.2, $this->bitterness->daniels(5.5, 56.7, 18.9, 1.056, 60));
     }
 }
