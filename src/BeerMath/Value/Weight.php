@@ -75,7 +75,7 @@ class Weight
      */
     public function ounces()
     {
-        return ($this->grams * (1 / self::GRAMS_PER_OUNCES));
+        return ($this->grams / self::GRAMS_PER_OUNCES);
     }
 
     /**
