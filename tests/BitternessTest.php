@@ -19,15 +19,6 @@ class BitternessTest extends \PHPUnit_Framework_TestCase {
 
 
     /**
-     * @covers \BeerMath\Bitterness::tinseth
-     */
-    public function testTinseth()
-    {
-        $this->markTestSkipped();
-        $this->assertEquals(38, $this->bitterness->tinseth(5.5, 56.7, 18.9, 1.056, 60));
-    }
-
-    /**
      * @covers \BeerMath\Bitterness::rager
      */
     public function testRager()
