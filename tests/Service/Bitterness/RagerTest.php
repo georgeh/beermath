@@ -20,9 +20,6 @@ class RagerTest extends \PHPUnit_Framework_TestCase {
         $this->rager = new Rager();
     }
 
-    /**
-     * @covers Rager
-     */
     public function testRager()
     {
         $this->assertEquals(50.8, $this->rager->rager(5.5,
