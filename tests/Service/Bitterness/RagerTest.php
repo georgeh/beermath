@@ -21,7 +21,7 @@ class RagerTest extends \PHPUnit_Framework_TestCase {
     }
 
     /**
-     * @covers \BeerMath\Bitterness::rager
+     * @covers Rager
      */
     public function testRager()
     {
