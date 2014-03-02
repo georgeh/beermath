@@ -46,7 +46,7 @@ class ColorTest extends \PHPUnit_Framework_TestCase {
             //   [srm    ebc    lovibond]
             array(40.0,  78.8,  30.074),
             array(5.0,   9.85,  4.148),
-            array(60.91,  120,  45.56)
+            array(60.91,  120,  45.5629629)
         );
 
     }
